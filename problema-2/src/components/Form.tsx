@@ -18,7 +18,7 @@ const formValidations = {
         .match(
           /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
         ),
-    "El correo debe tener un @",
+    "El correo debe tener formato valido",
   ],
   user: [(value: string) => value.length > 0, "El usuario es requerido"],
   age: [(value: number) => value >= 18, "Debes ser mayor de edad"],
