@@ -44,7 +44,7 @@ export const Form = ({
   const states = useMemo(
     () => ({
       Yucatan: ["Merida", "Progreso", "Telchac"],
-      "Nuevo Leon": ["Monterrey", "Santa Catarina, Juarez"],
+      "Nuevo Leon": ["Monterrey", "Santa Catarina", "Juarez"],
     }),
     []
   );
